@@ -1,5 +1,3 @@
-# SOLUTION.md
-
 ## Reproducibility Instructions
 
 **Platform:** Kaggle Notebook, GPU T4  
