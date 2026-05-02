@@ -80,11 +80,6 @@ ZO alone cannot learn from scratch in 256 steps on CIFAR-100.
 ZO destroyed the good initialization: 59.76% → 23.91%.
 lr too large for already well-tuned weights.
 
-### Logistic Regression via sklearn
-Achieved 64.62% but uses gradient-based optimization internally —
-methodologically inconsistent with the zero-order spirit of the task.
-Replaced with pseudo-inverse (closed-form, no gradients).
-
 ### SPSA without greedy rollback, lr=1e-6
 Loss flat (~4.41 ± 0.01), marginal degradation due to noise.
 Adding rollback stabilized results: 59.76% → 59.81%.
